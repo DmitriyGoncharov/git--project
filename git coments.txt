@@ -14,7 +14,7 @@ git branch (название новой ветки)    - создаст нову
 git rm --cached (название файла)  - убирает файл от присмотра гита      
 
 
-$ git config --global merge.tool kdiff3.cmd `"D:\\KDiff3\\kdiff2" $ BASE $LOCAL $REMOTE -o $MERGED`
+$ git config --global merge.tool kdiff3.cmd `"D:\\KDiff3\\kdiff3" $ BASE $LOCAL $REMOTE -o $MERGED`
 
 git config --global merge.tool kdiff3  - разрешает конфликт           
 git log - покажет комиты 
