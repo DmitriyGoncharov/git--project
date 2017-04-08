@@ -15,6 +15,7 @@ git rm --cached (название файла)  - убирает файл от п
 
 
 $ git config --global merge.tool kdiff3.cmd `"D:\\KDiff3\\kdiff3" $ BASE $LOCAL $REMOTE -o $MERGED`
+git mergetool 
 
 git config --global merge.tool kdiff3  - разрешает конфликт           
 git log - покажет комиты 
