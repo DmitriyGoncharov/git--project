@@ -1,6 +1,6 @@
 git status - статус гита
 
-git add - добавить
+git add . - добавить
  
 git commit -m"имя комита"  - коментить 
 git commit - закомитить 
