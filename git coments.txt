@@ -27,3 +27,7 @@ git push -u origin - отправка удаленной ветки
 
 git fetch - получить данные из интернета     
 git remote set-url origin -  поменять путь репозитория 
+
+
+решает ошибку (Github “fatal: remote origin already exists”)
+git remote rm origin
